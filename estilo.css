@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 4;
+}
+
+:root {
+    --var-cor-primaria: #bb5627;
+    --var-cor-secundaria: #486288;
+    --fundo: #9b07d6;
+    --texto-primario: #000000;
+    --texto-secundario: #FFFFFF;
+}
+
+
+
+.cabecalho{
+    text-align: center;
+    background-color: rgb(204, 73, 95);
+    background: rgb(145, 58, 180);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.7273109927564776) 0%,
+     rgba(153, 15, 100, 0.442) 100%, rgba(0,212,255,1) 100%), url("fundo.png") no-repeat;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo {
+    color: var(--texto-secundario);
+}
+.perfil {
+    border: 2px solid var(--var-cor-secundaria);
+    border-radius: 50%;
+}
+.menu {
+    background-color: var(--fundo);
+    list-style: none;
+    display:flex
+}
+.menu-item {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--texto-secundario)
+}
+.menu-item:hover {
+    color: var(--fundo);
+    background-color: var(--texto-secundario);
+}
+.bloco-texto h2 {
+    border-bottom: 2px var(--var-cor-primaria) solid;
+}
+.bloco-texto p {
+    line-height: 1.5;
+}
+.foto1 {
+    border: 2px;
+    margin: 10px;
+}
+.foto2{
+    border: 2px;
+    margin: 10px;
+}
+.foto3{
+    border: 2px;
+    margin: 10px;
+}
+
